@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="styles/index.css" rel="stylesheet" />
 
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstap-theme.min.css" rel="stylesheet" />
 </head>
-<body>
+<body <?php body_class(); ?>>
+<div id="container">
     <nav>
         <ul>
             <li>Home</li>
