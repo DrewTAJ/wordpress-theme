@@ -1,0 +1,11 @@
+/*
+ Theme Name:     Drew's Theme
+ Description:    Drew's Theme
+ Template:       wordpress-theme
+ Version:        1.0.0
+*/
+
+body {
+    color:blue;
+    background-color:red;
+}
