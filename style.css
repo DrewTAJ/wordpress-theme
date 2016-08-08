@@ -5,7 +5,42 @@
  Version:        1.0.0
 */
 
-body {
+/*body {
     color:blue;
     background-color:red;
+}*/
+
+#header {
+    overflow:auto;
+}
+
+.post-header {
+    padding-top: 15px;
+    padding-bottom:15px;
+    border:1px solid black;
+    border-bottom:1px solid lightgray;
+}
+
+.post-content {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.post-footer {
+    border:1px solid black;
+    border-top:1px solid lightgray;  
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+
+.post-content {
+    padding: 15px;
+}
+
+#footer {
+    overflow:auto;
+}
+
+.row {
+    margin-bottom:15px;
 }

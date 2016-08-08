@@ -8,7 +8,7 @@ function add_theme_styles() {
     // wp_register_style( 'index', get_template_directory_uri() . '/styles/index.css');
 
     wp_enqueue_style( 'style', get_stylesheet_uri() );
-    wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bootstrap.min.css');
+    wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/styles/bootstrap.min.css');
     wp_enqueue_style( 'bootstrap-theme', get_template_directory_uri() . '/styles/bootstrap-theme.min.css', array('bootstrap'));
     wp_enqueue_style( 'index', get_template_directory_uri() . '/styles/index.css');
 
