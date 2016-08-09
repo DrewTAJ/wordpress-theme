@@ -5,7 +5,7 @@
 ?>
 
 <div class="row">
-    <section id="post-<?php the_ID(); ?>" class="col-sm-12">
+    <section id="post-<?php the_ID(); ?>" class="col-sm-12 post">
         <header class="post-header" id="header">
             <div class="col-xs-6">
                 <time><a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"> <span class="glyphicon glyphicon-calendar"></span> <?php the_date('F, j, Y'); ?> </a></time>

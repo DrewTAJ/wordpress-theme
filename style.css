@@ -10,8 +10,24 @@
     background-color:red;
 }*/
 
+body {
+    background-color:lightgrey;
+}
+
+#container {
+    background-color:lightgrey;
+}
+
+.container {
+    max-width:700px;
+}
+
 #header {
     overflow:auto;
+}
+
+.post-header, .post-content, .post-footer {
+    background-color:white;
 }
 
 .post-header {
@@ -43,4 +59,17 @@
 
 .row {
     margin-bottom:15px;
+}
+
+.sidebar-container {
+    background-color:white;
+    border:1px solid black;
+}
+
+#sidebar-header {
+    overflow:auto;
+}
+
+#footer {
+    margin-bottom:0;
 }
