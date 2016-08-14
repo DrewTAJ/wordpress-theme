@@ -14,6 +14,7 @@ function add_theme_styles() {
 
     wp_enqueue_script('jquery',get_template_directory_uri().'/scripts/jquery-1.12.2.min.js');
     wp_enqueue_script('bootstrap-script',get_template_directory_uri() . '/scripts/bootstrap.min.js');
+    wp_enqueue_script( 'comment-reply' );
     wp_enqueue_script('index-script',get_template_directory_uri() . '/scripts/index.js',array('style'));
 }
 add_action( 'wp_enqueue_scripts',add_theme_styles );

@@ -19,8 +19,8 @@
         <div class="container-fluid">
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Archive</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/archive">Archive</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>

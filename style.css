@@ -73,3 +73,17 @@ body {
 #footer {
     margin-bottom:0;
 }
+
+.comments-container {
+    overflow:auto;
+    background-color:white;
+}
+
+#comments-list {
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+#commentForm {
+    background-color:white;
+}
